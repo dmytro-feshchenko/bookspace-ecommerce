@@ -72,6 +72,21 @@ $ make build
 $ make logs [optional_args]
 ```
 
+## GraphQL
+
+We use schema first approach here, so generate interfaces/classes based on GraphQL schemas.
+
+When application starts it generates appropriate structures from files in `graphql` directory.
+
+You can run script to generate these on demand:
+
+```bash
+ts-node generate-typings
+```
+
+### GraphQL Playground
+Go to [localhost:3300/grahql](http://localhost:3300/graphql) to see GraphQL IDE
+
 ## Debug
 
 If you are using Visual Studio Code:

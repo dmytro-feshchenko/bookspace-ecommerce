@@ -6,21 +6,23 @@ But feel free to use some of the components for your experiments :)
 
 ## Description
 
-This is going to be a plain simple e-commerce store. Don't really want to dive into some unfamiliar business domain, so stopped on selling/distributing books. 
+This is going to be a plain simple e-commerce store. Don't really want to dive into some unfamiliar business domain, so stopped on selling/distributing books (which should be close to most of people anyway).
 
 Never tried to serve Next.js via Nest.js (with SSR + PWA + caching), so it should be interesting.
 
 I think it would be better to keep the project as simple as possible in terms of functionality + avoid complicated business requirements (e.g. delivery, retailers, warehouses, etc.). Most probably will make some mock `stock` service in API and that's that. So, just need to update quantities in this service with proper API calls.
 
-Main features:
+## Project structure:
+
+## Main features:
 - [ ] Catalog with books (physical/digital/audio) + filtering
 - [ ] Shopping logic (add to cart, checkout with Stripe/PayPal/..., giftcards, etc.).
 - [ ] Rating system (reviews, popularity, sort by, third-party services, etc.)
 - [ ] Stream audio + read books online, downloadable content
 - [ ] Profile (see purchases)
-- [ ] Backend (manage books, genres, authors, etc.)
+- [ ] Dashboard (manage books, genres, authors, etc.)
 
-Some things which might be implemented
+## Some things which might be implemented
 - [ ] Third-party integrations (e.g. to convert books between different formats).
 - [ ] Recommendations (need to think about it)
 
@@ -34,7 +36,6 @@ Some things which might be implemented
 
 ### API
 Stack: Nest.js (Node.js) based on Express, Redis (as transporter), PostgreSQL (as main DB, need to decide per service), Swagger (docs)
-- [ ] OpenAPI (Swagger)
 - [ ] Use Redis as transporter
 - [ ] GraphQL
 - [ ] Split up onto microservices (customers, books, authors, etc.)
