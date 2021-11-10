@@ -1,0 +1,63 @@
+$primaryColor: #633255;
+$hoverBackgroundColor: #864373; // TODO: not in theme, check this
+
+.button {
+    text-transform: none;
+    -webkit-appearance: button;
+    overflow: visible;
+    border: none;
+
+    border-radius: 5px;
+    padding: 10px 20px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:disabled {
+        cursor: auto;
+    }
+
+    &.primary {
+        background: $primaryColor;
+        color: white;
+
+        &:hover {
+            background: $hoverBackgroundColor;
+        }
+
+        &:disabled {
+            background: $primaryColor;
+        }
+    }
+
+    &.text {
+        color: $primaryColor;
+        padding: 10px 20px;
+        background: transparent;
+
+        &:hover {
+            color: $hoverBackgroundColor;
+            text-decoration: underline;
+        }
+
+        &:disabled {
+            text-decoration: none;
+            color: $primaryColor;
+        }
+    }
+
+    &.outlined {
+        background: transparent;
+        color: black;
+        border: 1px solid #D8D8D8;
+
+        &:hover {
+            background: #D8D8D8;
+        }
+
+        &:disabled {
+            background: transparent;
+        }
+    }
+}

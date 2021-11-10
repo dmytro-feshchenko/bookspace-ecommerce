@@ -21,6 +21,12 @@
         "mainFile": "index.ts",
         "rootDir": "demo/pages/welcome"
     },
+    "ui/button": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/ui/button"
+    },
     "ui/card": {
         "scope": "",
         "version": "",
@@ -33,11 +39,29 @@
         "mainFile": "index.ts",
         "rootDir": "demo/ui/heading"
     },
+    "ui/input/radio": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/ui/input/radio"
+    },
+    "ui/input/text": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/ui/input/text"
+    },
     "ui/text": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "demo/ui/text"
+    },
+    "ui/text-input": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/ui/text-input"
     },
     "$schema-version": "14.9.0"
 }

@@ -1,0 +1,87 @@
+---
+description: 'A Button component'
+labels: ['ui', 'button', 'react', 'typescript']
+---
+
+import { Button } from './button';
+
+# Button
+
+Buttons allow users to take actions, and make choices, with a single click or tap.
+
+## Basic button
+
+```js live
+<>
+    <Button>Primary</Button>
+    <Button variant="text">Text</Button>
+    <Button variant="outlined">Outlined</Button>
+</>
+```
+
+### Primary button
+
+`Primary buttons` have high-emphasis, so user can easily notice and use them.
+Used for primary actions, such as: add product to cart, purchase, save, etc.
+
+```js live
+<>
+    <Button>Default</Button>
+    <Button disabled>Disabled</Button>
+    <Button href="#link">Link</Button>
+</>
+```
+
+### Text button
+
+`Text buttons` are usually used for extra actions,
+such as table/card controls, links, etc.
+
+```js live
+<>
+    <Button variant="text">Default</Button>
+    <Button variant="text" disabled>Disabled</Button>
+    <Button variant="text" href="#link">Link</Button>
+</>
+```
+
+### Outlined button
+
+`Outlined buttons` have medium-emphasis and can be used together with `Primary buttons` for secondary actions.
+
+```js live
+<>
+    <Button variant="outlined">Default</Button>
+    <Button variant="outlined" disabled>Disabled</Button>
+    <Button variant="outlined" href="#link">Link</Button>
+</>
+```
+
+## Handling clicks/taps
+
+All buttons accept `onClick` handler which is triggered on single click/tap event.
+
+```js live
+<Button onClick={() => { alert('triggered click!') }}>
+    Use me...
+</Button>
+```
+
+## Loading
+
+All buttons have built-in support for loading state.
+
+As of now you can only turn on the loading animation explicitly,
+using the property `loading={false|true}`. It's disabled by default.
+
+By default, the button is disabled when `loading={true}`,
+
+```js live
+<Button onClick={() => new Promise((res) => setTimeout(res, 1000))}>I'm not active in loading state...</Button>
+```
+
+But you can forcefully enable it using prop `activeWhenLoading`
+
+```js live
+<Button activeWhenLoading onClick={() => new Promise((res) => setTimeout(res, 1000))}>Always active</Button>
+```

@@ -118,10 +118,10 @@ packages:
       '@babel/code-frame': registry.npmjs.org/@babel/code-frame/7.16.0
       '@babel/generator': registry.npmjs.org/@babel/generator/7.16.0
       '@babel/helper-module-transforms': registry.npmjs.org/@babel/helper-module-transforms/7.16.0
-      '@babel/helpers': registry.npmjs.org/@babel/helpers/7.16.0
-      '@babel/parser': registry.npmjs.org/@babel/parser/7.16.2
+      '@babel/helpers': registry.npmjs.org/@babel/helpers/7.16.3
+      '@babel/parser': registry.npmjs.org/@babel/parser/7.16.3
       '@babel/template': registry.npmjs.org/@babel/template/7.16.0
-      '@babel/traverse': registry.npmjs.org/@babel/traverse/7.16.0
+      '@babel/traverse': registry.npmjs.org/@babel/traverse/7.16.3
       '@babel/types': registry.npmjs.org/@babel/types/7.16.0
       convert-source-map: registry.npmjs.org/convert-source-map/1.8.0
       debug: registry.npmjs.org/debug/4.3.2
@@ -205,7 +205,7 @@ packages:
       '@babel/helper-split-export-declaration': registry.npmjs.org/@babel/helper-split-export-declaration/7.16.0
       '@babel/helper-validator-identifier': registry.npmjs.org/@babel/helper-validator-identifier/7.15.7
       '@babel/template': registry.npmjs.org/@babel/template/7.16.0
-      '@babel/traverse': registry.npmjs.org/@babel/traverse/7.16.0
+      '@babel/traverse': registry.npmjs.org/@babel/traverse/7.16.3
       '@babel/types': registry.npmjs.org/@babel/types/7.16.0
     transitivePeerDependencies:
       - supports-color
@@ -241,7 +241,7 @@ packages:
     dependencies:
       '@babel/helper-member-expression-to-functions': registry.npmjs.org/@babel/helper-member-expression-to-functions/7.16.0
       '@babel/helper-optimise-call-expression': registry.npmjs.org/@babel/helper-optimise-call-expression/7.16.0
-      '@babel/traverse': registry.npmjs.org/@babel/traverse/7.16.0
+      '@babel/traverse': registry.npmjs.org/@babel/traverse/7.16.3
       '@babel/types': registry.npmjs.org/@babel/types/7.16.0
     transitivePeerDependencies:
       - supports-color
@@ -272,14 +272,14 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: false
 
-  registry.npmjs.org/@babel/helpers/7.16.0:
-    resolution: {integrity: sha512-dVRM0StFMdKlkt7cVcGgwD8UMaBfWJHl3A83Yfs8GQ3MO0LHIIIMvK7Fa0RGOGUQ10qikLaX6D7o5htcQWgTMQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@babel/helpers/-/helpers-7.16.0.tgz}
+  registry.npmjs.org/@babel/helpers/7.16.3:
+    resolution: {integrity: sha512-Xn8IhDlBPhvYTvgewPKawhADichOsbkZuzN7qz2BusOM0brChsyXMDJvldWaYMMUNiCQdQzNEioXTp3sC8Nt8w==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@babel/helpers/-/helpers-7.16.3.tgz}
     name: '@babel/helpers'
-    version: 7.16.0
+    version: 7.16.3
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/template': registry.npmjs.org/@babel/template/7.16.0
-      '@babel/traverse': registry.npmjs.org/@babel/traverse/7.16.0
+      '@babel/traverse': registry.npmjs.org/@babel/traverse/7.16.3
       '@babel/types': registry.npmjs.org/@babel/types/7.16.0
     transitivePeerDependencies:
       - supports-color
@@ -296,10 +296,10 @@ packages:
       js-tokens: registry.npmjs.org/js-tokens/4.0.0
     dev: false
 
-  registry.npmjs.org/@babel/parser/7.16.2:
-    resolution: {integrity: sha512-RUVpT0G2h6rOZwqLDTrKk7ksNv7YpAilTnYe1/Q+eDjxEceRMKVWbCsX7t8h6C1qCFi/1Y8WZjcEPBAFG27GPw==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@babel/parser/-/parser-7.16.2.tgz}
+  registry.npmjs.org/@babel/parser/7.16.3:
+    resolution: {integrity: sha512-dcNwU1O4sx57ClvLBVFbEgx0UZWfd0JQX5X6fxFRCLHelFBGXFfSz6Y0FAq2PEwUqlqLkdVjVr4VASEOuUnLJw==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@babel/parser/-/parser-7.16.3.tgz}
     name: '@babel/parser'
-    version: 7.16.2
+    version: 7.16.3
     engines: {node: '>=6.0.0'}
     hasBin: true
     dev: false
@@ -315,7 +315,7 @@ packages:
       '@babel/core': registry.npmjs.org/@babel/core/7.12.9
       '@babel/helper-plugin-utils': registry.npmjs.org/@babel/helper-plugin-utils/7.10.4
       '@babel/plugin-syntax-object-rest-spread': registry.npmjs.org/@babel/plugin-syntax-object-rest-spread/7.8.3_@babel+core@7.12.9
-      '@babel/plugin-transform-parameters': registry.npmjs.org/@babel/plugin-transform-parameters/7.16.0_@babel+core@7.12.9
+      '@babel/plugin-transform-parameters': registry.npmjs.org/@babel/plugin-transform-parameters/7.16.3_@babel+core@7.12.9
     dev: false
 
   registry.npmjs.org/@babel/plugin-syntax-jsx/7.12.1_@babel+core@7.12.9:
@@ -342,11 +342,11 @@ packages:
       '@babel/helper-plugin-utils': registry.npmjs.org/@babel/helper-plugin-utils/7.10.4
     dev: false
 
-  registry.npmjs.org/@babel/plugin-transform-parameters/7.16.0_@babel+core@7.12.9:
-    resolution: {integrity: sha512-XgnQEm1CevKROPx+udOi/8f8TiGhrUWiHiaUCIp47tE0tpFDjzXNTZc9E5CmCwxNjXTWEVqvRfWZYOTFvMa/ZQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@babel/plugin-transform-parameters/-/plugin-transform-parameters-7.16.0.tgz}
-    id: registry.npmjs.org/@babel/plugin-transform-parameters/7.16.0
+  registry.npmjs.org/@babel/plugin-transform-parameters/7.16.3_@babel+core@7.12.9:
+    resolution: {integrity: sha512-3MaDpJrOXT1MZ/WCmkOFo7EtmVVC8H4EUZVrHvFOsmwkk4lOjQj8rzv8JKUZV4YoQKeoIgk07GO+acPU9IMu/w==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@babel/plugin-transform-parameters/-/plugin-transform-parameters-7.16.3.tgz}
+    id: registry.npmjs.org/@babel/plugin-transform-parameters/7.16.3
     name: '@babel/plugin-transform-parameters'
-    version: 7.16.0
+    version: 7.16.3
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -355,10 +355,10 @@ packages:
       '@babel/helper-plugin-utils': registry.npmjs.org/@babel/helper-plugin-utils/7.14.5
     dev: false
 
-  registry.npmjs.org/@babel/runtime-corejs3/7.16.0:
-    resolution: {integrity: sha512-Oi2qwQ21X7/d9gn3WiwkDTJmq3TQtYNz89lRnoFy8VeZpWlsyXvzSwiRrRZ8cXluvSwqKxqHJ6dBd9Rv+p0ZGQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@babel/runtime-corejs3/-/runtime-corejs3-7.16.0.tgz}
+  registry.npmjs.org/@babel/runtime-corejs3/7.16.3:
+    resolution: {integrity: sha512-IAdDC7T0+wEB4y2gbIL0uOXEYpiZEeuFUTVbdGq+UwCcF35T/tS8KrmMomEwEc5wBbyfH3PJVpTSUqrhPDXFcQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@babel/runtime-corejs3/-/runtime-corejs3-7.16.3.tgz}
     name: '@babel/runtime-corejs3'
-    version: 7.16.0
+    version: 7.16.3
     engines: {node: '>=6.9.0'}
     dependencies:
       core-js-pure: registry.npmjs.org/core-js-pure/3.19.1
@@ -380,14 +380,14 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': registry.npmjs.org/@babel/code-frame/7.16.0
-      '@babel/parser': registry.npmjs.org/@babel/parser/7.16.2
+      '@babel/parser': registry.npmjs.org/@babel/parser/7.16.3
       '@babel/types': registry.npmjs.org/@babel/types/7.16.0
     dev: false
 
-  registry.npmjs.org/@babel/traverse/7.16.0:
-    resolution: {integrity: sha512-qQ84jIs1aRQxaGaxSysII9TuDaguZ5yVrEuC0BN2vcPlalwfLovVmCjbFDPECPXcYM/wLvNFfp8uDOliLxIoUQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@babel/traverse/-/traverse-7.16.0.tgz}
+  registry.npmjs.org/@babel/traverse/7.16.3:
+    resolution: {integrity: sha512-eolumr1vVMjqevCpwVO99yN/LoGL0EyHiLO5I043aYQvwOJ9eR5UsZSClHVCzfhBduMAsSzgA/6AyqPjNayJag==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@babel/traverse/-/traverse-7.16.3.tgz}
     name: '@babel/traverse'
-    version: 7.16.0
+    version: 7.16.3
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': registry.npmjs.org/@babel/code-frame/7.16.0
@@ -395,7 +395,7 @@ packages:
       '@babel/helper-function-name': registry.npmjs.org/@babel/helper-function-name/7.16.0
       '@babel/helper-hoist-variables': registry.npmjs.org/@babel/helper-hoist-variables/7.16.0
       '@babel/helper-split-export-declaration': registry.npmjs.org/@babel/helper-split-export-declaration/7.16.0
-      '@babel/parser': registry.npmjs.org/@babel/parser/7.16.2
+      '@babel/parser': registry.npmjs.org/@babel/parser/7.16.3
       '@babel/types': registry.npmjs.org/@babel/types/7.16.0
       debug: registry.npmjs.org/debug/4.3.2
       globals: registry.npmjs.org/globals/11.12.0
@@ -1349,7 +1349,7 @@ packages:
     engines: {node: '>=6.0'}
     dependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
-      '@babel/runtime-corejs3': registry.npmjs.org/@babel/runtime-corejs3/7.16.0
+      '@babel/runtime-corejs3': registry.npmjs.org/@babel/runtime-corejs3/7.16.3
     dev: false
 
   registry.npmjs.org/aria-query/5.0.0:
