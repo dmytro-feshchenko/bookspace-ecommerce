@@ -9,6 +9,30 @@
  */
 
 {
+    "design/base-ui/input/button": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/design/base-ui/input/button"
+    },
+    "design/base-ui/input/text": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/design/base-ui/input/text"
+    },
+    "design/navigation/breadcrumbs": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/design/navigation/breadcrumbs"
+    },
+    "design/navigation/link": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/design/navigation/link"
+    },
     "envs/my-react": {
         "scope": "",
         "version": "",
@@ -87,12 +111,6 @@
         "mainFile": "index.ts",
         "rootDir": "demo/ui/heading"
     },
-    "ui/input/button": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "ecommerce/ui/input/button"
-    },
     "ui/input/checkbox": {
         "scope": "",
         "version": "",
@@ -116,12 +134,6 @@
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/input/switch"
-    },
-    "ui/input/text": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "ecommerce/ui/input/text"
     },
     "ui/input/toggle": {
         "scope": "",
