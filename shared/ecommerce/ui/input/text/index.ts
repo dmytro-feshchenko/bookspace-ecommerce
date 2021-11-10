@@ -1,2 +1,2 @@
-export { Text } from './text';
-export type { TextProps } from './text';
+export { TextInput } from './text';
+export type { TextInputProps } from './text';

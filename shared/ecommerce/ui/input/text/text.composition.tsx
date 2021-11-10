@@ -1,6 +1,6 @@
 import React from 'react';
-import { Text } from './text';
+import { TextInput } from './text';
 
 export const BasicText = () => (
-  <Text text="hello from Text" />
+  <TextInput text="hello from Text" />
 );

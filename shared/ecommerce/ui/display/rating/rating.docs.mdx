@@ -1,0 +1,41 @@
+---
+description: 'Component for displaying rating'
+labels: ['ui', 'rating', 'react', 'typescript']
+---
+
+import { Rating } from './rating';
+
+# Rating
+
+Rating component allows to see user ratings prior to some item in different formats.
+
+## Basic rating
+
+By default, rating 
+
+```js
+<Rating value={4.5} />
+```
+
+
+```js
+<Rating value={4.5} min={1} max={10} />
+```
+
+### Reviews info
+
+```js
+<Rating value={4.5} totalReviews={100} />
+```
+
+### Component usage
+```js
+<Rating text="hello from Rating" />
+```
+
+### Using props to customize the text
+
+Modify the text to see it change live:
+```js live
+<Rating text="hello from Rating" />
+```

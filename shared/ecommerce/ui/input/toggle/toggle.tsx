@@ -1,13 +1,13 @@
 import React from 'react';
 
-export type TextInputProps = {
+export type ToggleProps = {
   /**
    * a text to be rendered in the component.
    */
   text: string
 };
 
-export function TextInput({ text }: TextInputProps) {
+export function Toggle({ text }: ToggleProps) {
   return (
     <div>
       {text}

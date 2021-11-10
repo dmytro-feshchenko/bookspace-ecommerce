@@ -1,13 +1,13 @@
 import React from 'react';
 
-export type TextInputProps = {
+export type BreadcrumbsProps = {
   /**
    * a text to be rendered in the component.
    */
   text: string
 };
 
-export function TextInput({ text }: TextInputProps) {
+export function Breadcrumbs({ text }: BreadcrumbsProps) {
   return (
     <div>
       {text}

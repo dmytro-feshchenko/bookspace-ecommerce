@@ -1,13 +1,13 @@
 import React from 'react';
 
-export type TextInputProps = {
+export type StepperProps = {
   /**
    * a text to be rendered in the component.
    */
   text: string
 };
 
-export function TextInput({ text }: TextInputProps) {
+export function Stepper({ text }: StepperProps) {
   return (
     <div>
       {text}

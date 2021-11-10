@@ -15,17 +15,47 @@
         "mainFile": "index.ts",
         "rootDir": "demo/envs/my-react"
     },
+    "navigation/breadcrumbs": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/navigation/breadcrumbs"
+    },
+    "navigation/link": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/navigation/link"
+    },
+    "navigation/pagination": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/navigation/pagination"
+    },
+    "navigation/stepper": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/navigation/stepper"
+    },
+    "navigation/tabs": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/navigation/tabs"
+    },
     "pages/welcome": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "demo/pages/welcome"
     },
-    "ui/button": {
+    "surface/card": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ecommerce/ui/button"
+        "rootDir": "ecommerce/surface/card"
     },
     "ui/card": {
         "scope": "",
@@ -33,11 +63,41 @@
         "mainFile": "index.ts",
         "rootDir": "demo/ui/card"
     },
+    "ui/display/badge": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/ui/display/badge"
+    },
+    "ui/display/rating": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/ui/display/rating"
+    },
+    "ui/display/tag": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/ui/display/tag"
+    },
     "ui/heading": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "demo/ui/heading"
+    },
+    "ui/input/button": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/ui/input/button"
+    },
+    "ui/input/checkbox": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/ui/input/checkbox"
     },
     "ui/input/radio": {
         "scope": "",
@@ -45,23 +105,35 @@
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/input/radio"
     },
+    "ui/input/slider": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/ui/input/slider"
+    },
+    "ui/input/switch": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/ui/input/switch"
+    },
     "ui/input/text": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/input/text"
     },
+    "ui/input/toggle": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/ui/input/toggle"
+    },
     "ui/text": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "demo/ui/text"
-    },
-    "ui/text-input": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "ecommerce/ui/text-input"
     },
     "$schema-version": "14.9.0"
 }
