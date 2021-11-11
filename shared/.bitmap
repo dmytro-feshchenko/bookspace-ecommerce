@@ -69,23 +69,11 @@
         "mainFile": "index.ts",
         "rootDir": "ecommerce/navigation/tabs"
     },
-    "pages/welcome": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "demo/pages/welcome"
-    },
     "surface/card": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/surface/card"
-    },
-    "ui/card": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "demo/ui/card"
     },
     "ui/display/badge": {
         "scope": "",
@@ -104,12 +92,6 @@
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/display/tag"
-    },
-    "ui/heading": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "demo/ui/heading"
     },
     "ui/input/checkbox": {
         "scope": "",
@@ -140,12 +122,6 @@
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/input/toggle"
-    },
-    "ui/text": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "demo/ui/text"
     },
     "$schema-version": "14.9.0"
 }

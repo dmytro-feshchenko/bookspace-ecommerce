@@ -58,16 +58,58 @@ importers:
   demo/envs/my-react:
     specifiers: {}
 
-  demo/pages/welcome:
+  ecommerce/design/base-ui/input/button:
     specifiers: {}
 
-  demo/ui/card:
+  ecommerce/design/base-ui/input/text:
     specifiers: {}
 
-  demo/ui/heading:
+  ecommerce/design/navigation/breadcrumbs:
     specifiers: {}
 
-  demo/ui/text:
+  ecommerce/design/navigation/link:
+    specifiers: {}
+
+  ecommerce/navigation/breadcrumbs:
+    specifiers: {}
+
+  ecommerce/navigation/link:
+    specifiers: {}
+
+  ecommerce/navigation/pagination:
+    specifiers: {}
+
+  ecommerce/navigation/stepper:
+    specifiers: {}
+
+  ecommerce/navigation/tabs:
+    specifiers: {}
+
+  ecommerce/surface/card:
+    specifiers: {}
+
+  ecommerce/ui/display/badge:
+    specifiers: {}
+
+  ecommerce/ui/display/rating:
+    specifiers: {}
+
+  ecommerce/ui/display/tag:
+    specifiers: {}
+
+  ecommerce/ui/input/checkbox:
+    specifiers: {}
+
+  ecommerce/ui/input/radio:
+    specifiers: {}
+
+  ecommerce/ui/input/slider:
+    specifiers: {}
+
+  ecommerce/ui/input/switch:
+    specifiers: {}
+
+  ecommerce/ui/input/toggle:
     specifiers: {}
 
 packages:
@@ -804,10 +846,10 @@ packages:
       user-home: registry.npmjs.org/user-home/2.0.0
     dev: false
 
-  registry.npmjs.org/@testing-library/dom/8.11.0:
-    resolution: {integrity: sha512-8Ay4UDiMlB5YWy+ZvCeRyFFofs53ebxrWnOFvCoM1HpMAX4cHyuSrCuIM9l2lVuUWUt+Gr3loz/nCwdrnG6ShQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@testing-library/dom/-/dom-8.11.0.tgz}
+  registry.npmjs.org/@testing-library/dom/8.11.1:
+    resolution: {integrity: sha512-3KQDyx9r0RKYailW2MiYrSSKEfH0GTkI51UGEvJenvcoDoeRYs0PZpi2SXqtnMClQvCqdtTTpOfFETDTVADpAg==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@testing-library/dom/-/dom-8.11.1.tgz}
     name: '@testing-library/dom'
-    version: 8.11.0
+    version: 8.11.1
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': registry.npmjs.org/@babel/code-frame/7.16.0
@@ -831,7 +873,7 @@ packages:
       react-dom: '*'
     dependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
-      '@testing-library/dom': registry.npmjs.org/@testing-library/dom/8.11.0
+      '@testing-library/dom': registry.npmjs.org/@testing-library/dom/8.11.1
       react: registry.npmjs.org/react/17.0.2
       react-dom: registry.npmjs.org/react-dom/17.0.2_react@17.0.2
     dev: false
